@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(115, 215, 165);
+}
+
+.mother{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.mother > div{
+    vertical-align: middle;
+}
+
+.d1{
+    width: 8vw;
+    height: 100px;
+    display: inline-block;
+}
+
+.d2{
+    width: 50vw;
+    display: inline-block;
+}
+
+.d1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.d2 ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-family: Racing Sans One;
+    font-size: 18px;
+}
+
+.d2 > div {
+    display: inline-block;
+}
+
+.div_searchbox{
+    padding-left: 20pt;
+}
+
+.div_searchbox .searchbox{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 8px;
+    font-family: Racing Sans One;
+}
+
+.d3{
+width: 35vw;
+height: 100px;
+display: inline-block;
+}
+
+.menu_right ul li{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Racing Sans One;
+}
+
+.menu_right ul{
+    margin-top: 40px;
+}
+
+.menu_right ul li i{
+    color: rgb(197, 70, 236);
+}
+
+.d3 >div{
+    display: inline-block;
+}
+
+.btn button{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 80px;
+    font-family: Racing Sans One;
+}
+
+.btn{
+    padding-left: 10px;
+}
+
+.btn_SingUp{
+    background-color: rgb(115, 215, 165);
+}
+
+.btn_Login{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.btn_SingUp:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn_Login:hover{
+    background-color: rgb(115, 215, 165);
+}
+
+.menu_left ul li:hover{
+    color: rgb(50, 105, 80);
+}
