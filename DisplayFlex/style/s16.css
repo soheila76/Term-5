@@ -1,0 +1,42 @@
+.container{
+    width: 99%;
+    height: 600px;
+    border: 1px solid gray;
+    
+    -moz-box-shadow: 8px -2px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 8px -2px 15px 0px rgba(0,0,0,0.75);
+}
+
+
+.left{
+    width: 10vw;
+    height: 15vw;
+    background-color: rgb(153, 153, 251);
+
+}
+
+.center{
+    width: 10vw;
+    height: 15vw;
+    background-color: rgb(220, 251, 153);
+
+}
+
+.right{
+    width: 10vw;
+    height: 15vw;
+    background-color: rgb(153, 251, 243);
+
+}
+.top-div{
+    height: 400px;
+}
+.container div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container div img{
+    width: ;
+}
