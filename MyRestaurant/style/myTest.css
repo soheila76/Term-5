@@ -91,7 +91,7 @@ nav ul li a:hover{
     animation-iteration-count:  infinite;   
 }
 .picture img:hover{
-    transform: scale(2.05);
+    transform: scale(1.05);
     opacity: 0.9;
     border-radius: 30px;
 }
