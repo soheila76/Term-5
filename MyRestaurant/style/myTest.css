@@ -73,9 +73,25 @@ body h2{
     row-gap: 20px;
 }
 .picture>img{
-    width: 28%;
+    width: 28vw;
     height: 300px;
     border: 2px solid rgb(224, 130, 68);
     border-radius: 25px;
     
+}
+@keyframes menu_move{
+    0%{transform: translate(6px,0px);}
+    36%{transform: translate(-6px,0px);}
+    66%{transform: translate(-6px,0px);}
+    100%{transform: translate(6px,0px);}
+
+}
+nav ul li a:hover{
+    animation: menu_move 0.8s;
+    animation-iteration-count:  infinite;   
+}
+.picture img:hover{
+    transform: scale(2.05);
+    opacity: 0.9;
+    border-radius: 30px;
 }
